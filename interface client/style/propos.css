@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #DDD3C8;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 50px;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+nav ul li a:active {
+    transform: scale(0.95);
+}
+
+
+.apropos .ligne{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.apropos .ligne .contenu{
+    font-size: 1.5rem;
+    line-height: 1;
+    flex: 2 2 45rem;
+    padding: 1rem;
+}
+.trait{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 355px;
+    height: 3px;
+    background-color:rgb(14, 53, 12);
+}
+.apropos .ligne h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(14, 53, 12);
+}
+
+.apropos .ligne p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color:rgb(14, 53, 12);
+
+}
+
+footer {
+    background-color: rgb(14, 53, 12); /* Couleur de fond similaire à celle des éléments de navigation et autres détails */
+    color: #fff; /* Texte blanc pour contraster avec le fond sombre */
+    padding: 20px 0; /* Un peu de padding pour l'espacement interne */
+    text-align: center; /* Centrer le contenu du footer */
+    font-size: 0.9rem; /* Une taille de police légèrement réduite par rapport au contenu principal */
+    border-top: 5px solid black; /* Une bordure supérieure pour séparer le footer du contenu de la page */
+}
+
